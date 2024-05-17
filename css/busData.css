@@ -1,0 +1,79 @@
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+html,
+body {
+    height: auto;
+    color: #fff;
+        text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+        background-image: url('/TT/img/bus.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #FFFFFF;
+}
+
+
+
+
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #71737a;
+    height: 50px;
+    text-align: center;
+}
+
+
+.table-hd{
+
+    height: 60px;
+    font-size: 1.3em;
+
+}
+
+tr:nth-child(even) {
+    background-color:rgba(43, 43, 45, 0.608);
+}
+
+td:nth-child(even) {
+    background-color:rgba(5, 10, 6, 0.686);
+}
+
+tr:nth-child(odd) {
+background-color: rgba(5, 10, 6, 0.686);
+}
+
+td:nth-child(odd) {
+background-color: rgba(5, 10, 6, 0.686);
+}
+
+.reload-button{
+    text-align: center;
+}
